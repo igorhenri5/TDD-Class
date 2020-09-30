@@ -1,5 +1,8 @@
 class Main{
   public static void main(String[] args){
-    System.out.println("Hello world!");
+    Tests tests = new Tests();
+    tests.testMultiplication();
+    tests.testFrancMultiplication();
+    tests.testEquality();
   }
 }
